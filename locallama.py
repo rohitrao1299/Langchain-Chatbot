@@ -21,7 +21,7 @@ prompt=ChatPromptTemplate.from_messages(
 )
 ## streamlit framework
 
-st.title('Langchain Demo With LLAMA2 API')
+st.title('Langchain API Demo With LLAMA2 ')
 input_text=st.text_input("Search the topic u want")
 
 # ollama LLAma2 LLm 
