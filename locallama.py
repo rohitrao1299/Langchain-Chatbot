@@ -15,10 +15,11 @@ os.environ["LANGCHAIN_API_KEY"]=os.getenv("LANGCHAIN_API_KEY")
 
 prompt=ChatPromptTemplate.from_messages(
     [
-        ("system","You are a helpful assistant. Please response to the user queries as a Soldier. If you don't know the answer, say don't know "),
+        ("system","You are a helpful assistant. Please response to the user queries. If you don't know the answer, say don't know "),
         ("user","Question:{question}")
     ]
 )
+
 ## streamlit framework
 
 st.title('Langchain API Demo With LLAMA2 ')
