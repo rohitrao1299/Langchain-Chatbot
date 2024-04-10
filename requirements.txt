@@ -12,3 +12,4 @@ pypdf
 chroma
 faiss-cpu
 sentence-transformers
+streamlit_chat
